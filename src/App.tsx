@@ -1,9 +1,11 @@
+import { Greet } from "./components/greet"
+
 // import './App.css'
 function App() {
   
   return (
     <>
-      <h1>Hello</h1>
+      <Greet name='Niloy'/>
     </>
   )
 }
