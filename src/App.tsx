@@ -1,6 +1,8 @@
 import { Greet } from "./components/greet"
+import { Heading } from "./components/Heading"
 import { Person } from "./components/Person"
 import { PersonList } from "./components/PersonList"
+import { Status } from "./components/Status"
 
 // import './App.css'
 function App() {
@@ -25,9 +27,12 @@ function App() {
   ]
   return (
     <>
-      <Greet name='Niloy' mesageCount={20} isLoggedIn={false}/>
+      {/* <Greet name='Niloy' mesageCount={20} isLoggedIn={false}/>
       <Person name = {personName}/>
-      <PersonList names={nameList}/>
+      <PersonList names={nameList}/> */}
+
+      <Status status="error"/>
+      <Heading>Placeholder Text</Heading>
     </>
   )
 }
