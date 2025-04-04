@@ -1,5 +1,6 @@
 import { Greet } from "./components/greet"
 import { Heading } from "./components/Heading"
+import { Oscar } from "./components/Oscar"
 import { Person } from "./components/Person"
 import { PersonList } from "./components/PersonList"
 import { Status } from "./components/Status"
@@ -33,6 +34,10 @@ function App() {
 
       <Status status="error"/>
       <Heading>Placeholder Text</Heading>
+      <Oscar>
+        <Heading>Placeholder Text</Heading>
+      </Oscar>
+      <Greet name='Niloy' isLoggedIn={true}/>
     </>
   )
 }
